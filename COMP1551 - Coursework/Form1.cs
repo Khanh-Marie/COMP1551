@@ -21,6 +21,7 @@ namespace COMP1551___Coursework
 
         }
 
+        //Check input for login and role
         private void loginButton_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "ECS001")
