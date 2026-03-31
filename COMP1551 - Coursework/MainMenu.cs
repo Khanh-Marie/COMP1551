@@ -520,7 +520,7 @@ public class MainMenu : Form
                 id, 
                 name, 
                 email, 
-                NULL AS AdditionalInfo,
+                NULL AS Subjects,
                 salary AS Salary,
                 fullPart AS FullPart,
                 workingHours AS WorkingHours
