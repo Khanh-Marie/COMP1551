@@ -592,7 +592,7 @@ public class MainMenu : Form
             return;
         }
 
-        if (string.IsNullOrEmpty(roleBox.Text))
+        if (string.IsNullOrEmpty(roleBox.Text) || roleBox.Text != currentUserRole)
         {
             MessageBox.Show("Role is required");
             return;
